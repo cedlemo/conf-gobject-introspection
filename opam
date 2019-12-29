@@ -9,7 +9,8 @@ depexts: [
   ["libgirepository1.0-dev"] {os-family = "debian"}
   ["gobject-introspection-devel"] {os-distribution = "fedora"}
   ["gobject-introspection-devel"] {os-distribution = "centos"}
-  ["glib-dev"] {os-distribution = "alpine"}
+  ["gobject-introspection-dev"] {os-distribution = "alpine"}
+  ["gobject-introspection"] {os-distribution = "opensuse"}
   ["gobject-introspection"] {os = "macos" & os-distribution = "homebrew"}
   ["gobject-introspection"] {os = "macos" & os-distribution = "macports"}
 ]
@@ -26,3 +27,11 @@ and retry"""
 synopsis: "Virtual package relying on a system gobject-introspection installation"
 depends: ["conf-pkg-config" {build}]
 flags: conf
+url {
+  src:
+    "https://github.com/cedlemo/conf-gobject-introspection/archive/1.0.tar.gz"
+  checksum: [
+    "md5=248f4cdc392a5c57fc1c54a8d1ef5609"
+    "sha512=cfa1ed604ca11fa1e836330c2d38754237843dbca5213f059b65931dbf87fb33fe3966eba5b6bec152b102aad2becf810b74f52f60f4aa059ba4375837f12a99"
+  ]
+}
