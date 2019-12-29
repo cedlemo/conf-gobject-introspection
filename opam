@@ -2,6 +2,7 @@ opam-version: "2.0"
 authors: "The GNOME Project et al."
 maintainer: "Cédric Le Moigne <cedlemo@gmx.com>"
 homepage: "https://gitlab.gnome.org/GNOME/gobject-introspection"
+dev-repo: "https://gitlab.gnome.org/GNOME/gobject-introspection"
 bug-reports: "https://github.com/ocaml/opam-repository/issues"
 license: "various"
 build: [["pkg-config" "gobject-introspection-1.0"]]
