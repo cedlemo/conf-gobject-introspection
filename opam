@@ -10,7 +10,7 @@ depexts: [
   ["gobject-introspection-devel"] {os-distribution = "fedora"}
   ["gobject-introspection-devel"] {os-distribution = "centos"}
   ["gobject-introspection-dev"] {os-distribution = "alpine"}
-  ["gobject-introspection"] {os-distribution = "opensuse"}
+  ["libgirepository-1_0-1"] {os-distribution = "opensuse"}
   ["gobject-introspection"] {os = "macos" & os-distribution = "homebrew"}
   ["gobject-introspection"] {os = "macos" & os-distribution = "macports"}
 ]
